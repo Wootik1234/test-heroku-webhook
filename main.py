@@ -2,7 +2,7 @@ import telebot
 import os
 from flask import Flask, request
 
-TOKEN = "5010224121:AAEXl_d-Xlu0UdHV2QSkLc54FizXBViAHN8"
+TOKEN = "5046197558:AAGxGn_3JSHbopwKBpM3sfJEchoSNM3Anok"
 APP_URL = f"https://reminder-webhook.herokuapp.com/{TOKEN}"
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
